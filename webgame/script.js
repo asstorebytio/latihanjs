@@ -24,7 +24,7 @@ function resetGame() {
 }
 
 function sendScore(score) {
-    fetch('https://asstorebytio.github.io/latihanjs/webdatabase/leaderboard.html', {
+    fetch('https://latihanjs-tios-projects-a47fc15a.vercel.app/webdatabase/leaderboard', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
