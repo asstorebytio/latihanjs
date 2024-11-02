@@ -1,5 +1,5 @@
 function fetchLeaderboard() {
-    fetch('http://localhost:3000/leaderboard')
+    fetch('https://asstorebytio.github.io/latihanjs/webdatabase/leaderboard.html')
         .then(response => response.json())
         .then(data => {
             const leaderboardList = document.getElementById("leaderboardList");
