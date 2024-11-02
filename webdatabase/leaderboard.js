@@ -1,5 +1,5 @@
 function fetchLeaderboard() {
-    fetch('https://latihanjs-tios-projects-a47fc15a.vercel.app/webdatabase/leaderboard')
+    fetch('https://latihanjs.vercel.app/webdatabase/leaderboard')
         .then(response => response.json())
         .then(data => {
             const leaderboardList = document.getElementById("leaderboardList");
