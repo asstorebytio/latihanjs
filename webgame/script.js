@@ -24,7 +24,7 @@ function resetGame() {
 }
 
 function sendScore(score) {
-    fetch('http://localhost:3000/leaderboard', {
+    fetch('https://asstorebytio.github.io/latihanjs/webdatabase/leaderboard.html', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
